@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saurav Singh - Portfolio</title>
+  <style>
+    @media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    margin: 10px 0;
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .intro-text h2 {
+    font-size: 24px;
+  }
+
+  .intro-text p {
+    font-size: 14px;
+  }
+
+  section.block {
+    padding: 20px;
+  }
+
+  section.block h2 {
+    font-size: 22px;
+  }
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #fefefe;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: #ff5722;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #ff5722;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .intro-text {
+      max-width: 500px;
+    }
+
+    .intro-text h2 {
+      font-size: 32px;
+      color: #ff5722;
+      margin-bottom: 20px;
+    }
+
+    .intro-text p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .profile-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      overflow: hidden;
+      transition: transform 0.4s ease;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .profile-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .profile-image:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    section.block {
+      padding: 40px 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section.block h2 {
+      font-size: 28px;
+      color: #ff5722;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .block-content p {
+      font-size: 16px;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    .block-content strong {
+      display: inline-block;
+      margin-top: 10px;
+      color: #222;
+    }
+
+    .skills-block p {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SAURAV SINGH</h1>
+    <nav>
+      <a href="project.html">Project</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="intro-text">
+      <h2>Introduction</h2>
+      <p>Hello, my name is Saurav Singh. I am currently pursuing a B.Tech in Artificial Intelligence and Data Science at JECRC Foundation. I have a deep passion for technology and data, and I am enthusiastic about applying my knowledge and skills to solve complex, real-world problems. With a strong foundation in AI and data science, I am eager to contribute to innovative projects and continue learning in this dynamic field.</p>
+    </div>
+    <div class="profile-image">
+      <img src="me.jpg" alt="Saurav Singh">
+    </div>
+  </section>
+  
+  <section class="block">
+    <h2>Education</h2>
+    <div class="block-content">
+      <p><strong>B.Tech in Artificial Intelligence and Data Science</strong><br>
+      JECRC Foundation<br>
+      Duration: 2022 – 2026 (Currently Pursuing)</p>
+    </div>
+  </section>
+
+  <section class="block">
+    <h2>Experience</h2>
+    <div class="block-content">
+      <p><strong>TEAM EVERS'T – Content Writer (28 Aug to 12 Sep 2023)</strong><br>
+      • Developed 20 stories and educational games for children in rural areas.<br>
+      • Communicated content to student instructors for effective lesson delivery.</p>
+
+      <p><strong>Next24Tech – Data Analytics (05 July to 05 September 2024)</strong><br>
+      • Developed 3 working model projects:<br>
+      &nbsp;&nbsp;1. House Price Prediction System using Data Analytics Algorithms<br>
+      &nbsp;&nbsp;2. E-commerce Product Recommendation System<br>
+      &nbsp;&nbsp;3. Social Media Sentiment Analysis<br>
+      • Gained experience in solving real-world problems.</p>
+    </div>
+  </section>
+
+
+  <section class="block skills-section">
+    <h2>Skills</h2>
+    <div class="skills-block block-content">
+      <p><strong>Languages:</strong> C++, Python, Java, JavaScript, HTML/CSS, Node.js, Ruby</p>
+      <p><strong>Tools and Technologies:</strong> SQL, GitHub, WordPress, Data Structures, Algorithms, Pandas, DBMS, Azure</p>
+      <p><strong>Data Analysis:</strong> Power BI, Tableau, Seaborne, Matplotlib, Attention to Detail, BASIC, Collaborate, Data Sets, Data Visualization Tools, Programming, R, Statistics</p>
+    </div>
+  </section>
+
+</body>
+</html>
